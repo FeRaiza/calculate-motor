@@ -1,20 +1,93 @@
-<h2>Cálculo dos Componentes do Motor</h2>
-<form (ngSubmit)="calcularComponentes()" #motorForm="ngForm">
-  <label>Potência [CV]: <input type="number" [(ngModel)]="potenciaCV" name="potenciaCV" required></label><br>
-  <label>Rendimento: <input type="number" step="0.01" [(ngModel)]="rendimento" name="rendimento" required></label><br>
-  <label>Fator de Potência: <input type="number" step="0.01" [(ngModel)]="fatorPotencia" name="fatorPotencia" required></label><br>
-  <label>IP/IN: <input type="number" step="0.01" [(ngModel)]="ipIn" name="ipIn"></label><br>
-  <label>tp: <input type="number" step="0.01" [(ngModel)]="tp" name="tp"></label><br>
-  <label>trb: <input type="number" step="0.01" [(ngModel)]="trb" name="trb"></label><br>
-  <label>Tensão [V]: <input type="number" [(ngModel)]="tensao" name="tensao" required></label><br>
-  <label>Queda de Tensão [%]: <input type="number" step="0.1" [(ngModel)]="quedaTensao" name="quedaTensao"></label><br>
-  <button type="submit">Calcular</button>
-</form>
 
-<div *ngIf="contatores">
-  <h3>Resultados:</h3>
-  <p>{{ contatores }}</p>
-  <p>{{ fusivel }}</p>
-  <p>{{ releTermico }}</p>
-  <p>Condutor recomendado: {{ condutor }}</p>
-</div>
+<mat-card-title class="title">
+  Cálculo dos Componentes do Motor
+</mat-card-title>
+<mat-card>
+  <div class="info-container">
+   <p>Insira os dados para a realização do cálculo dos componentes do motor.</p>
+    <button mat-icon-button matTooltip="Calculadora baseada em motores elétricos IV pólos 60HZ 220VDD/380VYY/440VD com 12 terminais livres e com placa de bornes." aria-label="Informação" style="width: 20px; height: 20px; min-width: 20px; min-height: 20px;">
+      <mat-icon style="font-size: 18px; line-height: 20px;">info</mat-icon>
+    </button>
+  </div>
+  <br>
+  <form (ngSubmit)="calcularComponentes()" #motorForm="ngForm" autocomplete="off">
+    <div style="display: flex; flex-wrap: wrap; gap: 16px;">
+      <mat-form-field appearance="outline">
+        <mat-label>Potência [CV]</mat-label>
+        <input matInput type="number" [(ngModel)]="potenciaCV" name="potenciaCV" required>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Rendimento</mat-label>
+        <input matInput type="number" step="0.01" [(ngModel)]="rendimento" name="rendimento" required>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Fator de Potência</mat-label>
+        <input matInput type="number" step="0.01" [(ngModel)]="fatorPotencia" name="fatorPotencia" required>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>IP/IN</mat-label>
+        <input matInput type="number" step="0.01" [(ngModel)]="ipIn" name="ipIn">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>tp</mat-label>
+        <input matInput type="number" step="0.01" [(ngModel)]="tp" name="tp">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>trb</mat-label>
+        <input matInput type="number" step="0.01" [(ngModel)]="trb" name="trb">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Tensão [V]</mat-label>
+        <input matInput type="number" [(ngModel)]="tensao" name="tensao" required>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Queda de Tensão [%]</mat-label>
+        <input matInput type="number" step="0.1" [(ngModel)]="quedaTensao" name="quedaTensao">
+      </mat-form-field>
+    </div>
+    <div style="margin-top: 16px;text-align: center;">
+      <button mat-raised-button color="primary" type="submit">Calcular</button>
+    </div>
+  </form>
+ </mat-card>
+
+
+
+
+<!-- <app-colabs (click)="mostrarColabs = false" style="margin: 24px auto; display: block; max-width: 400px; cursor: pointer;"></app-colabs> -->
+
+<mat-card *ngIf="contatores" style="margin-top: 24px;">
+  <mat-card-title>Resultados</mat-card-title>
+  <mat-card-content>
+    <p>{{ contatores }}</p>
+    <p>{{ fusivel }}</p>
+    <p>{{ releTermico }}</p>
+    <p>Condutor recomendado: {{ condutor }}</p>
+  </mat-card-content>
+</mat-card>
+
+<footer class="footer-fixed">
+  <a routerLink="/colabs" style="color: #000; font-size: 1rem; text-decoration: none;">
+    conheça a equipe de desenvolvimento
+  </a>
+</footer>
+<style>
+  :host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .footer-fixed {
+    margin-top: auto;
+    width: auto;
+    text-align: center;
+    padding: 20px;
+    background: mediumpurple;
+  }
+
+  .mat-card:not([class*=mat-elevation-z])
+
+ {
+     box-shadow:none;
+}
+</style>

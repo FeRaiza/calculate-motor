@@ -1,0 +1,14 @@
+.title{
+  display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      height: 40px;
+      background: lavender;
+      padding: 28px;
+}
+.info-container {
+display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}

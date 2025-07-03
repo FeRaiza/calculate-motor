@@ -7,6 +7,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./calculate-motor.component.css']
 })
 export class CalculateMotorComponent implements OnInit {
+  mostrarColabs = false;
   // Dados de entrada do motor
   potenciaCV: number = 5; // Exemplo padrão
   rendimento: number = 0.85;
@@ -76,7 +77,7 @@ export class CalculateMotorComponent implements OnInit {
     }
 
     if (melhorContator) {
-      this.contatores = `Modelo: ${melhorContator.modelo} (${melhorContator.linha}) - Corrente: ${melhorContator.corrente}A para ${melhorContator.potencia_cv}CV`;
+      this.contatores = `Contator sugerido - Modelo: ${melhorContator.modelo} (${melhorContator.linha}) - Corrente: ${melhorContator.corrente}A para ${melhorContator.potencia_cv}CV`;
     } else {
       this.contatores = 'Nenhum contator adequado encontrado.';
     }
@@ -159,4 +160,6 @@ export class CalculateMotorComponent implements OnInit {
       this.condutor = 'Consultar tabela para bitolas maiores';
     }
   }
+
+  
 }

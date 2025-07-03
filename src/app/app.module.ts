@@ -2,6 +2,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { AppComponent } from './app.component';
 import { CalculateMotorComponent } from './calculate-motor/calculate-motor.component';
 
@@ -12,11 +17,13 @@ import { CalculateMotorComponent } from './calculate-motor/calculate-motor.compo
   ],
   imports: [
     BrowserModule,
-    // Necessário para ngModel funcionar
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatButtonModule,
+    MatCardModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

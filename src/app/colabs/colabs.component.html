@@ -1,0 +1,66 @@
+
+<div class="title" style="display: flex; align-items: center; gap: 12px;">
+  <button mat-icon-button color="primary" style="margin-bottom: 4px;" routerLink="/" aria-label="Voltar">
+    <mat-icon style="font-size: 24px;">arrow_back</mat-icon>
+  </button>
+  <div>
+    <span style="font-size: 20px;">
+      Conheça nossa equipe de desenvolvimento
+    </span>
+  </div>
+</div>
+<div class="container-colabs">
+  <h2> Equipe de desenvolvimento</h2>
+  <p>
+    Fernanda Raiza
+    <a href="https://www.linkedin.com/in/fernanda-raiza-cs/" target="_blank" rel="noopener noreferrer" (click)="onLinkedinClick($event)">
+      <img class="img-linkedin" src="../../assets/icon-linkedin.png" alt="LinkedIn Fernanda Raiza" style="width:20px; vertical-align:middle; margin-left:4px; cursor:pointer;" />
+    </a>
+  </p>
+
+  <p>
+    Rayanne Brayner
+    <a href="https://www.linkedin.com/in/rayanne-wanderley-brayner-de-melo-103837361/" target="_blank" rel="noopener noreferrer" (click)="onLinkedinClick($event)">
+      <img class="img-linkedin" src="../../assets/icon-linkedin.png" alt="LinkedIn Rayanne Brayner" style="width:20px; vertical-align:middle; margin-left:4px; cursor:pointer;" />
+    </a>
+  </p>
+
+  <p>
+    Karolaynne Ferreira
+    <a href="https://www.linkedin.com/in/karolaynne-ferreira-a58979137/" target="_blank" rel="noopener noreferrer" (click)="onLinkedinClick($event)">
+      <img class="img-linkedin" src="../../assets/icon-linkedin.png" alt="LinkedIn Colaborador 3" style="width:20px; vertical-align:middle; margin-left:4px; cursor:pointer;" />
+    </a>
+  </p>
+
+  <p>
+    Livya Nunes
+    <a href="https://www.linkedin.com/in/livyanunes/" target="_blank" rel="noopener noreferrer" (click)="onLinkedinClick($event)">
+      <img class="img-linkedin" src="../../assets/icon-linkedin.png" alt="LinkedIn Colaborador 3" style="width:20px; vertical-align:middle; margin-left:4px; cursor:pointer;" />
+    </a>
+  </p>
+  <p class="explain">Aplicação desenvolvida para a realização do trabalho de 2EE da disciplina de Eletrotécnica 2, ministrada pelo professor Dr José Raimundo Lima Júnior na Escola Politécnica de Pernambuco com o objetivo de auxiliar no cálculo de motores elétricos dedicado a profissionais da área de engenharia elétrica.</p>
+</div>
+
+<footer class="footer-fixed">
+  <p>
+    Desenvolvido por Fernanda Raiza em 2025
+  </p>
+  <a href="https://github.com/FeRaiza" target="_blank" rel="noopener noreferrer" (click)="onLinkedinClick($event)">
+     <img class="img-linkedin" src="../../assets/github.png" alt="GitHub Fernanda Raiza" style="width:20px; vertical-align:middle; margin-left:4px; cursor:pointer;" />
+  </a>
+</footer>
+<style>
+  :host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .footer-fixed {
+    margin-top: auto;
+    width: auto;
+    text-align: center;
+    padding: 20px;
+    background: mediumpurple;
+    color: #000
+  }
+  </style>

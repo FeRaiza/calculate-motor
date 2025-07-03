@@ -1,6 +1,15 @@
 
+<mat-card-title class="title">
+  Cálculo dos Componentes do Motor
+</mat-card-title>
 <mat-card>
-  <mat-card-title>Cálculo dos Componentes do Motor</mat-card-title>
+  <div class="info-container">
+   <p>Insira os dados para a realização do cálculo dos componentes do motor.</p>
+    <button mat-icon-button matTooltip="Calculadora baseada em motores elétricos IV pólos 60HZ 220VDD/380VYY/440VD com 12 terminais livres e com placa de bornes." aria-label="Informação" style="width: 20px; height: 20px; min-width: 20px; min-height: 20px;">
+      <mat-icon style="font-size: 18px; line-height: 20px;">info</mat-icon>
+    </button>
+  </div>
+  <br>
   <form (ngSubmit)="calcularComponentes()" #motorForm="ngForm" autocomplete="off">
     <div style="display: flex; flex-wrap: wrap; gap: 16px;">
       <mat-form-field appearance="outline">
@@ -36,11 +45,16 @@
         <input matInput type="number" step="0.1" [(ngModel)]="quedaTensao" name="quedaTensao">
       </mat-form-field>
     </div>
-    <div style="margin-top: 16px;">
+    <div style="margin-top: 16px;text-align: center;">
       <button mat-raised-button color="primary" type="submit">Calcular</button>
     </div>
   </form>
-</mat-card>
+ </mat-card>
+
+
+
+
+<!-- <app-colabs (click)="mostrarColabs = false" style="margin: 24px auto; display: block; max-width: 400px; cursor: pointer;"></app-colabs> -->
 
 <mat-card *ngIf="contatores" style="margin-top: 24px;">
   <mat-card-title>Resultados</mat-card-title>
@@ -51,3 +65,29 @@
     <p>Condutor recomendado: {{ condutor }}</p>
   </mat-card-content>
 </mat-card>
+
+<footer class="footer-fixed">
+  <a routerLink="/colabs" style="color: #000; font-size: 1rem; text-decoration: none;">
+    conheça a equipe de desenvolvimento
+  </a>
+</footer>
+<style>
+  :host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .footer-fixed {
+    margin-top: auto;
+    width: auto;
+    text-align: center;
+    padding: 20px;
+    background: mediumpurple;
+  }
+
+  .mat-card:not([class*=mat-elevation-z])
+
+ {
+     box-shadow:none;
+}
+</style>

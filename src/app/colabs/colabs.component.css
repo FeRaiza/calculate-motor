@@ -1,0 +1,32 @@
+p { color: #333; }
+ul { list-style: disc; margin-left: 20px; }
+
+.img-linkedin {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.container-colabs{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+
+.title{
+  display: flex;
+      align-items: center;
+
+      gap: 8px;
+      height: 40px;
+      background: lavender;
+      padding: 28px;
+}
+
+.explain{
+padding-top: 30px;
+width: 32%;
+     text-align: center;
+}

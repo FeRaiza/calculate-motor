@@ -1,0 +1,546 @@
+{
+  "produtos": [
+    {
+      "linha": "CW/CWCO",
+      "modelo": "CW07",
+      "tipo": "Minicontator",
+      "corrente_AC3_A": 7,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 1.5,
+          "potencia_cv": 2
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 3,
+          "potencia_cv": 4
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 3.7,
+          "potencia_cv": 5
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 3,
+          "potencia_cv": 4
+        }
+      ]
+    },
+    {
+      "linha": "CW/CWCO",
+      "modelo": "CWC07",
+      "tipo": "Minicontator",
+      "corrente_AC3_A": 7,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 1.5,
+          "potencia_cv": 2
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 3,
+          "potencia_cv": 4
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 3.7,
+          "potencia_cv": 5
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 3.7,
+          "potencia_cv": 5
+        }
+      ]
+    },
+    {
+      "linha": "CW/CWCO",
+      "modelo": "CWC09",
+      "tipo": "Minicontator",
+      "corrente_AC3_A": 9,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 2.2,
+          "potencia_cv": 3
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 3.7,
+          "potencia_cv": 5
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 4.5,
+          "potencia_cv": 6
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 5.5,
+          "potencia_cv": 7.5
+        }
+      ]
+    },
+    {
+      "linha": "CW/CWCO",
+      "modelo": "CWC012",
+      "tipo": "Minicontator",
+      "corrente_AC3_A": 12,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 3,
+          "potencia_cv": 4
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 5.5,
+          "potencia_cv": 7.5
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 5.5,
+          "potencia_cv": 7.5
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 7.5,
+          "potencia_cv": 10
+        }
+      ]
+    },
+    {
+      "linha": "CW/CWCO",
+      "modelo": "CWC016",
+      "tipo": "Minicontator",
+      "corrente_AC3_A": 16,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 3.7,
+          "potencia_cv": 5
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 7.5,
+          "potencia_cv": 10
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 7.5,
+          "potencia_cv": 10
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 7.5,
+          "potencia_cv": 10
+        }
+      ]
+    },
+    {
+      "linha": "CW/CWCO",
+      "modelo": "CWC025",
+      "tipo": "Minicontator",
+      "corrente_AC3_A": 22,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 5.5,
+          "potencia_cv": 7.5
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 11,
+          "potencia_cv": 15
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 11,
+          "potencia_cv": 15
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 11,
+          "potencia_cv": 15
+        }
+      ]
+    },
+    {
+      "linha": "CWB",
+      "modelo": "CWB9",
+      "tipo": "Contator",
+      "corrente_AC3_A": 9,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 2.2,
+          "potencia_cv": 3
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 3.7,
+          "potencia_cv": 5
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 4.5,
+          "potencia_cv": 6
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 5.5,
+          "potencia_cv": 7.5
+        }
+      ]
+    },
+    {
+      "linha": "CWB",
+      "modelo": "CWB12",
+      "tipo": "Contator",
+      "corrente_AC3_A": 12,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 3,
+          "potencia_cv": 4
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 5.5,
+          "potencia_cv": 7.5
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 5.5,
+          "potencia_cv": 7.5
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 7.5,
+          "potencia_cv": 10
+        }
+      ]
+    },
+    {
+      "linha": "CWB",
+      "modelo": "CWB18",
+      "tipo": "Contator",
+      "corrente_AC3_A": 18,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 4.5,
+          "potencia_cv": 6
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 7.5,
+          "potencia_cv": 10
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 9.2,
+          "potencia_cv": 12.5
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 11,
+          "potencia_cv": 15
+        }
+      ]
+    },
+    {
+      "linha": "CWB",
+      "modelo": "CWB25",
+      "tipo": "Contator",
+      "corrente_AC3_A": 25,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 5.5,
+          "potencia_cv": 7.5
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 11,
+          "potencia_cv": 15
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 11,
+          "potencia_cv": 15
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 11,
+          "potencia_cv": 15
+        }
+      ]
+    },
+    {
+      "linha": "CWB",
+      "modelo": "CWB32",
+      "tipo": "Contator",
+      "corrente_AC3_A": 32,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 9.2,
+          "potencia_cv": 12.5
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 15,
+          "potencia_cv": 20
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 15,
+          "potencia_cv": 20
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 18.5,
+          "potencia_cv": 25
+        }
+      ]
+    },
+    {
+      "linha": "CWB",
+      "modelo": "CWB38",
+      "tipo": "Contator",
+      "corrente_AC3_A": 38,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 11,
+          "potencia_cv": 15
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 18.5,
+          "potencia_cv": 25
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 22,
+          "potencia_cv": 30
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 22,
+          "potencia_cv": 30
+        }
+      ]
+    },
+    {
+      "linha": "CWM",
+      "modelo": "CWM9",
+      "tipo": "Contator",
+      "corrente_AC3_A": 9,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 2.2,
+          "potencia_cv": 3
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 3.7,
+          "potencia_cv": 5
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 4.5,
+          "potencia_cv": 6
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 5.5,
+          "potencia_cv": 7.5
+        }
+      ]
+    },
+    {
+      "linha": "CWM",
+      "modelo": "CWM50",
+      "tipo": "Contator",
+      "corrente_AC3_A": 50,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 15,
+          "potencia_cv": 20
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 22,
+          "potencia_cv": 30
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 30,
+          "potencia_cv": 40
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 30,
+          "potencia_cv": 40
+        }
+      ]
+    },
+    {
+      "linha": "CWM",
+      "modelo": "CWM400",
+      "tipo": "Contator",
+      "corrente_AC3_A": 400,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 110,
+          "potencia_cv": 150
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 220,
+          "potencia_cv": 300
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 220,
+          "potencia_cv": 300
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 260,
+          "potencia_cv": 350
+        }
+      ]
+    },
+    {
+      "linha": "CWM",
+      "modelo": "CWM800",
+      "tipo": "Contator",
+      "corrente_AC3_A": 800,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 220,
+          "potencia_cv": 300
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 440,
+          "potencia_cv": 600
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 440,
+          "potencia_cv": 600
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 500,
+          "potencia_cv": 700
+        }
+      ]
+    },
+    {
+      "linha": "CWMC",
+      "modelo": "CWMC9",
+      "tipo": "Contator para Manobra de Capacitores",
+      "corrente_AC-6b_A": 16,
+      "potencia_reativa_tensao": [
+        {
+          "tensao_V": "220",
+          "potencia_kvar": 6
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kvar": 10
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kvar": 12
+        },
+        {
+          "tensao_V": "690",
+          "potencia_kvar": 17.5
+        }
+      ]
+    },
+    {
+      "linha": "CWMS",
+      "modelo": "CWMS9",
+      "tipo": "Contator para Aplicações de Segurança",
+      "corrente_AC3_A": 9,
+      "potencia_tensao": [
+        {
+          "tensao_V": "220/230",
+          "potencia_kW": 2.2,
+          "potencia_cv": 3
+        },
+        {
+          "tensao_V": "380",
+          "potencia_kW": 3.7,
+          "potencia_cv": 5
+        },
+        {
+          "tensao_V": "440",
+          "potencia_kW": 4.5,
+          "potencia_cv": 6
+        },
+        {
+          "tensao_V": "660/690",
+          "potencia_kW": 5.5,
+          "potencia_cv": 7.5
+        }
+      ]
+    },
+    {
+      "linha": "RW",
+      "modelo": "RW17-1D",
+      "tipo": "Relé de Sobrecarga Térmico",
+      "faixa_corrente_A": "0.28-17"
+    },
+    {
+      "linha": "RW",
+      "modelo": "RW27-2D",
+      "tipo": "Relé de Sobrecarga Térmico",
+      "faixa_corrente_A": "0.28-40"
+    },
+    {
+      "linha": "RW",
+      "modelo": "RW67-1D",
+      "tipo": "Relé de Sobrecarga Térmico",
+      "faixa_corrente_A": "25-50"
+    },
+    {
+      "linha": "RW",
+      "modelo": "RW317-1D",
+      "tipo": "Relé de Sobrecarga Térmico",
+      "faixa_corrente_A": "100-420"
+    },
+    {
+      "linha": "RW_E",
+      "modelo": "RWB40E",
+      "tipo": "Relé de Sobrecarga Eletrônico",
+      "faixa_corrente_A": "0.4-40"
+    },
+    {
+      "linha": "RW_E",
+      "modelo": "RWM112E",
+      "tipo": "Relé de Sobrecarga Eletrônico",
+      "faixa_corrente_A": "14-112"
+    },
+    {
+      "linha": "RW_E",
+      "modelo": "RWM840E",
+      "tipo": "Relé de Sobrecarga Eletrônico",
+      "faixa_corrente_A": "170-840"
+    }
+  ]
+}

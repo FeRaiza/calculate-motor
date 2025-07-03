@@ -1,0 +1,20 @@
+<h2>Cálculo dos Componentes do Motor</h2>
+<form (ngSubmit)="calcularComponentes()" #motorForm="ngForm">
+  <label>Potência [CV]: <input type="number" [(ngModel)]="potenciaCV" name="potenciaCV" required></label><br>
+  <label>Rendimento: <input type="number" step="0.01" [(ngModel)]="rendimento" name="rendimento" required></label><br>
+  <label>Fator de Potência: <input type="number" step="0.01" [(ngModel)]="fatorPotencia" name="fatorPotencia" required></label><br>
+  <label>IP/IN: <input type="number" step="0.01" [(ngModel)]="ipIn" name="ipIn"></label><br>
+  <label>tp: <input type="number" step="0.01" [(ngModel)]="tp" name="tp"></label><br>
+  <label>trb: <input type="number" step="0.01" [(ngModel)]="trb" name="trb"></label><br>
+  <label>Tensão [V]: <input type="number" [(ngModel)]="tensao" name="tensao" required></label><br>
+  <label>Queda de Tensão [%]: <input type="number" step="0.1" [(ngModel)]="quedaTensao" name="quedaTensao"></label><br>
+  <button type="submit">Calcular</button>
+</form>
+
+<div *ngIf="contatores">
+  <h3>Resultados:</h3>
+  <p>{{ contatores }}</p>
+  <p>{{ fusivel }}</p>
+  <p>{{ releTermico }}</p>
+  <p>Condutor recomendado: {{ condutor }}</p>
+</div>

@@ -1,0 +1,256 @@
+{
+  "fusiveis": [
+    {
+      "referencia": "FNH00-20K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "20 A",
+      "tamanho": "00",
+      "codigo": "10687494"
+    },
+    {
+      "referencia": "FNH00-25K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "25 A",
+      "tamanho": "00",
+      "codigo": "10701722"
+    },
+    {
+      "referencia": "FNH00-35K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "35 A",
+      "tamanho": "00",
+      "codigo": "10701721"
+    },
+    {
+      "referencia": "FNH00-40K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "40 A",
+      "tamanho": "00",
+      "codigo": "10702117"
+    },
+    {
+      "referencia": "FNH00-50K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "50 A",
+      "tamanho": "00",
+      "codigo": "10701718"
+    },
+    {
+      "referencia": "FNH00-63K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "63 A",
+      "tamanho": "00",
+      "codigo": "10705764"
+    },
+    {
+      "referencia": "FNH00-80K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "80 A",
+      "tamanho": "00",
+      "codigo": "10705995"
+    },
+    {
+      "referencia": "FNH00-100K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "100 A",
+      "tamanho": "00",
+      "codigo": "10707110"
+    },
+    {
+      "referencia": "FNH00-125K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "125 A",
+      "tamanho": "00",
+      "codigo": "10707231"
+    },
+    {
+      "referencia": "FNH00-160K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "160 A",
+      "tamanho": "00",
+      "codigo": "10701724"
+    },
+    {
+      "referencia": "FNH00-200K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "200 A",
+      "tamanho": "00",
+      "codigo": "10710732"
+    },
+    {
+      "referencia": "FNH00-250K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "250 A",
+      "tamanho": "00",
+      "codigo": "10711445"
+    },
+    {
+      "referencia": "FNH1-63K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "63 A",
+      "tamanho": "1",
+      "codigo": "10806688"
+    },
+    {
+      "referencia": "FNH1-80K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "80 A",
+      "tamanho": "1",
+      "codigo": "10807549"
+    },
+    {
+      "referencia": "FNH1-100K-A",
+      "tipo": "NH Contato Faca",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "100 A",
+      "tamanho": "1",
+      "codigo": "10807553"
+    },
+    {
+      "referencia": "FNH3FEM-450Y-A",
+      "tipo": "NH Flush End",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "450 A",
+      "tamanho": "3",
+      "codigo": "12644962"
+    },
+    {
+      "referencia": "FNH3FEM-1400Y-A",
+      "tipo": "NH Flush End",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "1400 A",
+      "tamanho": "3",
+      "codigo": "12661666"
+    },
+    {
+      "referencia": "FNH23FEA-1000Y-A",
+      "tipo": "NH Flush End",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "1000 A",
+      "tamanho": "23",
+      "codigo": "12644745"
+    },
+    {
+      "referencia": "FNH23FEA-2000Y-A",
+      "tipo": "NH Flush End",
+      "classe": "aR",
+      "tensao": "690 V CA",
+      "corrente": "2000 A",
+      "tamanho": "23",
+      "codigo": "12661692"
+    },
+    {
+      "referencia": "FNH000-4U",
+      "tipo": "NH Contato Faca",
+      "classe": "gL/gG",
+      "tensao": "500 V CA",
+      "corrente": "4 A",
+      "tamanho": "000",
+      "codigo": "10891504"
+    },
+    {
+      "referencia": "FNH000-80U",
+      "tipo": "NH Contato Faca",
+      "classe": "gL/gG",
+      "tensao": "500 V CA",
+      "corrente": "80 A",
+      "tamanho": "000",
+      "codigo": "10887824"
+    },
+    {
+      "referencia": "FNH00-160U",
+      "tipo": "NH Contato Faca",
+      "classe": "gL/gG",
+      "tensao": "500 V CA",
+      "corrente": "160 A",
+      "tamanho": "00",
+      "codigo": "10045370"
+    },
+    {
+      "referencia": "FNH1-250U",
+      "tipo": "NH Contato Faca",
+      "classe": "gL/gG",
+      "tensao": "500 V CA",
+      "corrente": "250 A",
+      "tamanho": "1",
+      "codigo": "10045372"
+    },
+    {
+      "referencia": "FNH2-400U",
+      "tipo": "NH Contato Faca",
+      "classe": "gL/gG",
+      "tensao": "500 V CA",
+      "corrente": "400 A",
+      "tamanho": "2",
+      "codigo": "10045376"
+    },
+    {
+      "referencia": "FNH3-630U",
+      "tipo": "NH Contato Faca",
+      "classe": "gL/gG",
+      "tensao": "500 V CA",
+      "corrente": "630 A",
+      "tamanho": "3",
+      "codigo": "10045377"
+    },
+    {
+      "referencia": "FDW-2S",
+      "tipo": "D - Diametral",
+      "classe": "gL/gG",
+      "tensao": "500 V CA",
+      "corrente": "2 A",
+      "tamanho": "DII",
+      "codigo": "10409856"
+    },
+    {
+      "referencia": "FDW-25S",
+      "tipo": "D - Diametral",
+      "classe": "gL/gG",
+      "tensao": "500 V CA",
+      "corrente": "25 A",
+      "tamanho": "DII",
+      "codigo": "10409862"
+    },
+    {
+      "referencia": "FDW-63S",
+      "tipo": "D - Diametral",
+      "classe": "gL/gG",
+      "tensao": "500 V CA",
+      "corrente": "63 A",
+      "tamanho": "DIII",
+      "codigo": "10409865"
+    }
+  ]
+}
